@@ -1,5 +1,5 @@
 import './App.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 
 function App() {
@@ -19,6 +19,11 @@ function App() {
         if (newIndex > 9) { newIndex = 0 };
         setNoButtonIndex(newIndex);
     }
+
+    useEffect(() => {
+        document.title = 'Vil du bli min Valentine?';
+    }, []);
+    
 
 
     if (pressedYes) {
