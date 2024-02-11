@@ -1,6 +1,7 @@
 import './App.css';
 import { useState } from 'react';
 
+
 function App() {
     const [pressedYes, setPressedYes] = useState(false);
     const [yesButtonInfo, setYesButtonInfo] = useState([40,90,18]);
@@ -18,6 +19,7 @@ function App() {
         if (newIndex > 9) { newIndex = 0 };
         setNoButtonIndex(newIndex);
     }
+
 
     if (pressedYes) {
         return (
