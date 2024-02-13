@@ -1,7 +1,7 @@
 # Valentines react project
 
 A small Valentines card website made using React \
-Visit the website (here)[https://valentines-react-nettside.vercel.app/]
+Visit the website [here](https://valentines-react-nettside.vercel.app/)
 
 
 # How to run
